@@ -1,3 +1,7 @@
+<a href="https://api.travis-ci.org/igorlima/ping-pong-in-coffee">
+  <img src="https://api.travis-ci.org/igorlima/ping-pong-in-coffee.png" alt="Travis CI badge" />
+</a>
+
 # Ping Pong in Coffee Script
 
 
