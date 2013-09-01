@@ -5,7 +5,7 @@
     "website": "http://github.com/igorlima"
   },
   "name": "ping-pong-in-coffee",
-  "description": "it's a ping pong",
+  "description": "A sample program which prints numbers from 1 to 100, each number per line.",
   "version": "0.0.1",
   "homepage": "https://github.com/igorlima/ping-pong-in-coffee",
   "repository": {
