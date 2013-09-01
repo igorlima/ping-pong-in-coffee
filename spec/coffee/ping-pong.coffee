@@ -22,6 +22,9 @@ describe "Ping pong specs", ->
     it "printing SHOULD contain the sequence '13 14 ping pong'", ->
       expect( printing ).toContain '13 14 ping pong'
 
+    it "printing SHOULD contain the sequence 'ping 4 pong ping'", ->
+      expect( printing ).toContain 'ping 4 pong ping'
+
   describe "Multiple of some number", ->
 
     describe "Print any multiple", ->

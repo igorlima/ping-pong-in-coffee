@@ -17,5 +17,7 @@ PingPong.Multiple = class
     printing = ''
     for multiple in [@three, @five]
       printing_by_multiple = multiple number
-      printing += unless printing then printing_by_multiple else " #{printing_by_multiple}"
+      printing +=
+        unless printing and printing_by_multiple then printing_by_multiple
+        else " #{printing_by_multiple}"
     printing
