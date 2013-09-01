@@ -1,6 +1,27 @@
 
 describe "Ping pong specs", ->
 
+  describe "Printing from 1 to 100", ->
+    printing = PingPong.print from: 1, to: 100
+
+    it "printing SHOULD contain the number 1", ->
+      expect( printing ).toContain '1'
+
+    it "printing SHOULD contain the number 2", ->
+      expect( printing ).toContain '2'
+
+    it "printing SHOULD contain the sequence '1 2'", ->
+      expect( printing ).toContain '1 2'
+
+    it "printing SHOULD contain 'ping'", ->
+      expect( printing ).toContain 'ping'
+
+    it "printing SHOULD contain the sequence '1 2 ping'", ->
+      expect( printing ).toContain '1 2 ping'
+
+    it "printing SHOULD contain the sequence '13 14 ping pong'", ->
+      expect( printing ).toContain '13 14 ping pong'
+
   describe "Multiple of some number", ->
 
     describe "Print any multiple", ->

@@ -1,5 +1,10 @@
 PingPong = @PingPong = class
-
+  @print: ({from, to}) ->
+    printing = ''
+    for number in [from..to]
+      multiple = PingPong.Multiple.print number
+      printing += if multiple then " #{multiple}" else " #{number}"
+    printing
 
 PingPong.Multiple = class
 	@three: (number) ->
@@ -11,5 +16,6 @@ PingPong.Multiple = class
   @print: (number) =>
     printing = ''
     for multiple in [@three, @five]
-      printing += multiple number
+      printing_by_multiple = multiple number
+      printing += unless printing then printing_by_multiple else " #{printing_by_multiple}"
     printing
