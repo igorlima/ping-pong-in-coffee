@@ -33,7 +33,7 @@ When completed, you'll be able to run the various Grunt commands provided from t
 Run `grunt` to run tests locally and compile the coffee script files.
 
 #### Tests - `npm test`
-Runs [Jasmine](http://pivotal.github.io/jasmine/) tests headlessly in [PhantomJS](http://phantomjs.org/) (used for CI).
+Runs [Jasmine](https://jasmine.github.io/) tests headlessly in [PhantomJS](http://phantomjs.org/) (used for CI).
 
 #### Watch - `grunt watch`
 This is a convenience method for watching coffee script files and automatically building them whenever you save.
